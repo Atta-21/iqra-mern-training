@@ -1,0 +1,10 @@
+START
+Ask for the basic salary.
+Enter the allowance amount.
+Calculate the gross salary:
+gross salary= basic salary +allowance.
+Enter the deduction amount.
+Calculate net salary :
+net salary= gross salary - deduction 
+Display the basic salary, allowance, deduction, gross salary and net salary.
+END
