@@ -1,0 +1,20 @@
+START
+
+Take the student's name.
+
+Ask for marks of 5 subjects.
+
+Check each mark.
+If the mark is below 0 or above 100, ask for it again.
+
+Add the marks of all 5 subjects.
+
+Find the percentage from the total marks.
+
+Give a grade according to the percentage.
+
+Check if the student has passed or failed.
+
+Show the name, total marks, percentage, grade and result.
+
+END
