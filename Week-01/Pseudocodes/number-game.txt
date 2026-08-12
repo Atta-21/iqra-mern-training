@@ -1,17 +1,9 @@
 START
-
 Choose a secret number.
-
 Ask the player to enter a number.
-
 Compare the entered number with the secret number.
-
 If the guess is greater, tell the player to try a smaller number.
-
 If the guess is smaller, tell the player to try a bigger number.
-
 Keep asking for a guess until the correct number is entered.
-
 When the guess is correct, display a winning message.
-
 END
