@@ -1,0 +1,12 @@
+START
+Set a correct PIN.
+Give the user up to 3 chances to enter the PIN.
+Ask the user to enter the PIN.
+If the PIN is correct, allow access to the ATM.
+If the PIN is wrong, show an error message and ask again.
+If all 3 attempts are wrong, block the access.
+After successful login, ask for the withdrawal amount.
+Check the available balance.
+If the balance is enough, complete the transaction.
+Otherwise, show an insufficient balance message.
+END
