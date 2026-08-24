@@ -1,0 +1,85 @@
+//prime function
+function isPrime(num) {
+  if (num < 2) return false;
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) return false; 
+  }
+  return true;
+}
+console.log(isPrime(7));
+
+//reverse a string
+
+function reversestring(str){
+  return str.split("").reverse().join("");
+}
+console.log(reversestring("hello"));
+
+//palindrome check
+
+function ispalindrome(str){
+  return str===reversestring(str);
+}
+console.log(ispalindrome("racecar"));
+
+//factorial of a number
+
+function factorial(n){
+  let result =1;
+  for(let i=1;i<=n;i++){
+    result *= i;
+  }
+  return result;
+}
+console.log(factorial(5));
+
+//vowel count in a string
+
+function vowelCount(str){
+  let count = 0;
+  for(let char of str){
+  if("aeiouAEIOU".includes(char)){
+    count++;
+  }}
+  return count;
+}
+console.log(vowelCount("hello world"));
+
+//temperature conversion functions
+
+function tocelcius(f){
+  return (f-32)*5/9;
+}
+console.log(tocelcius(68));
+function tofahrenheit(c){
+  return c*9/5+32;
+}
+console.log(tofahrenheit(20));
+
+//discount price calculation
+
+function discoutprice(price,percent){
+  return price - (price * percent / 100);
+}
+console.log(discoutprice(100,20));
+
+//password validation function
+
+function ispasswordvalid(pass){
+  return pass.length >= 8 && /[A-Z]/.test(pass) && /[0-9]/.test(pass);
+}
+console.log(ispasswordvalid("Password1"));
+
+//find minimum in an array
+
+let arr = [1, 2, 3, 4, 5];
+function findmin(arr){
+  let min = arr[0];
+  for(let i=0; i<5; i++){
+    if(arr[i]<min){
+      min = arr[i];
+    }
+  }
+  return min;
+}
+console.log(findmin(arr));
